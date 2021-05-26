@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #483D8B;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controladores.Cliente">
+   <children>
+      <Label layoutX="40.0" layoutY="76.0" text="ID Cliente" textFill="#12b91d">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label layoutX="40.0" layoutY="119.0" text="Nombre" textFill="#12b91d">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label layoutX="40.0" layoutY="162.0" text="Apellido" textFill="#12b91d">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label layoutX="38.0" layoutY="203.0" text="Telefono" textFill="#12b91d">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label layoutX="366.0" layoutY="76.0" text="Email" textFill="#12b91d">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label layoutX="343.0" layoutY="119.0" text="Contraseña" textFill="#12b91d">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label layoutX="350.0" layoutY="203.0" text="Documento" textFill="#12b91d">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <RadioButton fx:id="dni" layoutX="378.0" layoutY="162.0" mnemonicParsing="false" text="DNI" textFill="#12b91d">
+         <font>
+            <Font size="18.0" />
+         </font></RadioButton>
+      <RadioButton fx:id="nie" layoutX="529.0" layoutY="162.0" mnemonicParsing="false" text="NIE" textFill="#12b91d">
+         <font>
+            <Font size="18.0" />
+         </font></RadioButton>
+      <Button fx:id="crearBtn" layoutX="212.0" layoutY="306.0" mnemonicParsing="false" onAction="#crearCli" textFill="#12b91d" prefHeight="51.0" prefWidth="276.0" text="CREAR">
+         <font>
+            <Font size="24.0" />
+         </font></Button>
+      <TextField fx:id="textId" layoutX="135.0" layoutY="77.0" />
+      <TextField fx:id="textNombre" layoutX="135.0" layoutY="120.0" />
+      <TextField fx:id="textApellido" layoutX="135.0" layoutY="163.0" />
+      <TextField fx:id="textTlf" layoutX="135.0" layoutY="204.0" />
+      <TextField fx:id="textEmail" layoutX="454.0" layoutY="77.0" />
+      <TextField fx:id="textPass" layoutX="454.0" layoutY="120.0" />
+      <TextField fx:id="textDocumento" layoutX="465.0" layoutY="204.0" />
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="150.0" layoutY="14.0" prefHeight="32.0" prefWidth="389.0" text="CREACION DE CLIENTE" textAlignment="CENTER" textFill="#12b91d">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #483D8B;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controladores.Menu">
+	<children>
+		<Button id="btnOrder" fx:id="orderBtn" layoutX="389.0" layoutY="184.0" mnemonicParsing="false" onAction="#goToOrder" prefHeight="33.0" prefWidth="206.0" style="-fx-background-color: #006400;" text="Crear un pedido" textFill="#12b91d">
+			<font>
+				<Font name="Webdings" size="18.0" />
+			</font>
+		</Button>
+		<Button id="btnClient" fx:id="clientBtn" layoutX="106.0" layoutY="184.0" mnemonicParsing="false" onAction="#goToClient" prefHeight="33.0" prefWidth="206.0" style="-fx-background-color: #006400;" text="Crear un cliente" textFill="#12b91d">
+			<font>
+				<Font name="Webdings" size="18.0" />
+			</font>
+		</Button>
+		<Label layoutX="305.0" layoutY="72.0" text="Menu" textAlignment="CENTER" textFill="#12b91d">
+			<font>
+				<Font name="Arial" size="36.0" />
+			</font>
+		</Label>
+	</children>
+</AnchorPane>
